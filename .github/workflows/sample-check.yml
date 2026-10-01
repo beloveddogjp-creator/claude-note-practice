@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - name: Verify sample and ZIP
         run: python3 scripts/verify_sample.py
+      - name: Verify permissions practice ZIP
+        run: python3 scripts/verify_permissions_sample.py
