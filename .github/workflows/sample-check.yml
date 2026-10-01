@@ -1,0 +1,11 @@
+name: Sample package check
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Verify sample and ZIP
+        run: python3 scripts/verify_sample.py
