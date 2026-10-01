@@ -13,7 +13,7 @@
 
 Claude Codeをインストール・ログイン済みの方向けです。未導入なら[公式Quickstart](https://code.claude.com/docs/en/quickstart)を先に確認してください。Claudeアプリのチャット欄へZIPを添付する手順ではありません。
 
-[サンプルZIP](https://github.com/luluoneone/claude-note-practice/raw/refs/heads/main/claude-note-practice.zip)をダウンロードして展開します。GitHubのZIPファイル画面で「View raw」が出る場合は、そこからダウンロードできます。
+[サンプルZIP](https://github.com/beloveddogjp-creator/claude-note-practice/raw/refs/heads/main/claude-note-practice.zip)をダウンロードして展開します。GitHubのZIPファイル画面で「View raw」が出る場合は、そこからダウンロードできます。
 
 ZIPを展開した独立した claude-note-practice フォルダで試します。別の仕事のフォルダへ混ぜる前に、この小さなサンプルで動作を確かめます。サンプル以外の上位ディレクトリのプロジェクトルールを混ぜないためです。自分のユーザー設定等の影響は残る場合があります。
 
