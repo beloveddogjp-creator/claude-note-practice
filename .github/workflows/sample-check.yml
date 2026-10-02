@@ -15,3 +15,5 @@ jobs:
         run: python3 scripts/verify_rewind_sample.py
       - name: Verify synthetic media ZIP and headers
         run: python3 scripts/verify_media_sample.py
+      - name: Verify read-only hash comparison ZIP and cases
+        run: python3 scripts/verify_hash_sample.py
