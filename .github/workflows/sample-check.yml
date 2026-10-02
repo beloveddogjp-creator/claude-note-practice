@@ -19,3 +19,5 @@ jobs:
         run: python3 scripts/verify_hash_sample.py
       - name: Verify Premiere generation preparation ZIP without generating
         run: python3 scripts/verify_premiere_generative_sample.py
+      - name: Verify practical note sample ZIP and SRT structural boundaries
+        run: python3 scripts/verify_note_practical_samples.py

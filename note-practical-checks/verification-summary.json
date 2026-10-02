@@ -1,0 +1,125 @@
+{
+  "environment": "macOS-26.6.2-arm64-arm-64bit",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "srt": {
+    "cues": 6,
+    "manual_proposals": 2,
+    "actual_ai_run": false,
+    "timings_and_order_preserved": true,
+    "numeric_only_text_preserved": true,
+    "rejected": {
+      "original_mismatch": true,
+      "unknown_id": true,
+      "changed_time": true,
+      "deleted_cue": true,
+      "reordered_cues": true
+    },
+    "semantic_error_not_detected_by_structure": true,
+    "packets": [
+      {
+        "pts_time": "0.000000",
+        "duration_time": "1.000000"
+      },
+      {
+        "pts_time": "1.000000",
+        "duration_time": "1.500000"
+      },
+      {
+        "pts_time": "2.500000",
+        "duration_time": "0.500000"
+      },
+      {
+        "pts_time": "3.000000",
+        "duration_time": "1.000000"
+      },
+      {
+        "pts_time": "4.000000",
+        "duration_time": "1.000000"
+      },
+      {
+        "pts_time": "5.000000",
+        "duration_time": "1.000000"
+      }
+    ]
+  },
+  "ffmpeg_qc": {
+    "synthetic_input_only": true,
+    "black_intervals": [
+      [
+        "2",
+        "3",
+        "1"
+      ]
+    ],
+    "silence_starts": [
+      "4.010875"
+    ],
+    "silence_ends": [
+      "5.013271"
+    ],
+    "short_black_detected_with_lower_duration": true,
+    "short_silence_detected_with_lower_duration": true,
+    "input_sha256_unchanged": "1436644beec684f6233ee915204e65823536ae11f8daf4f8541a095941658f1a"
+  },
+  "practice": {
+    "synthetic_command_checks_only": true,
+    "human_learning_effect_measured": false,
+    "outputs": [
+      {
+        "file": "practice-wrong-2s.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 360,
+              "r_frame_rate": "25/1",
+              "nb_read_frames": "50"
+            }
+          ],
+          "format": {
+            "duration": "2.000000"
+          }
+        }
+      },
+      {
+        "file": "practice-correct-1s.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 360,
+              "r_frame_rate": "25/1",
+              "nb_read_frames": "25"
+            }
+          ],
+          "format": {
+            "duration": "1.000000"
+          }
+        }
+      },
+      {
+        "file": "practice-retry-1s.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 360,
+              "r_frame_rate": "25/1",
+              "nb_read_frames": "25"
+            }
+          ],
+          "format": {
+            "duration": "1.000000"
+          }
+        }
+      }
+    ]
+  },
+  "parent_linux_7_1_5_specific_results": "not independently authenticated; this is a separate macOS reproduction"
+}
